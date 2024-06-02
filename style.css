@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #2c3e50;
+  color: white;
+  padding: 1em 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 1em;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  padding: 2em;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: auto;
+}
+
+label {
+  margin-top: 1em;
+}
+
+input {
+  padding: 0.5em;
+  margin-top: 0.5em;
+}
+
+button {
+  margin-top: 1em;
+  padding: 0.5em;
+  background-color: #2c3e50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #34495e;
+}
+.anime-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+.anime-card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 1em;
+  width: calc(25% - 2em);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.anime-card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.anime-card h4 {
+  margin: 0.5em 0 0;
+  font-size: 1.2em;
+}
